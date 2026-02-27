@@ -54,7 +54,7 @@ if (loading) return (
                 onClick={()=>setCurrentPage(currentPage-1)}
                 disabled={currentPage===1}>Previous</button>
 
-                <span style={{ margin: '0 15px'}}>Page{currentPage} of {totalPages}</span>
+                <span style={{ margin: '0 15px'}}>Page {currentPage} of {totalPages}</span>
                 <button 
                 onClick={()=>setCurrentPage(currentPage+1)}
                 disabled={currentPage===totalPages}

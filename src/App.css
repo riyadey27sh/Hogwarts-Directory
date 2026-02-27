@@ -37,6 +37,7 @@ h1{
   gap: 20px;
   padding: 20px;
   width: 100%;
+  justify-content: center;
 }
 
 .character-card{
@@ -100,6 +101,8 @@ color: #524b06;
   width: 90%;
   color: #0f172a;
   box-shadow: 0 0 30px rgba(251,191,36,0.3);
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 .modal-content h2{
