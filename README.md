@@ -1,16 +1,35 @@
-# React + Vite
+# ⚡ Hogwarts Student Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A magical, responsive React application that fetches and displays characters from the Harry Potter universe using the [HP-API](https://hp-api.onrender.com/).
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Live Data:** Fetches real-time wizarding data.
+-   **Client-Side Pagination:** Smoothly navigate through hundreds of characters.
+-   **Magical UI:** Dark-themed interface with "Cinzel" typography and house-specific styling.
+-   **Dynamic Modals:** Detailed character profiles including wand info and actor names.
+-   **Adaptive Design:** Responsive grid that looks great on mobile and desktop.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **React** (Vite)
+-   **CSS3** (Custom animations & Grid)
+-   **Fetch API** (Asynchronous data handling)
 
-## Expanding the ESLint configuration
+## 🚀 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/riyadey27sh/Hogwarts-Directory.git](https://github.com/riyadey27sh/Hogwarts-Directory.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the magic:**
+    ```bash
+    npm run dev
+    ```
+
+## 🧙‍♂️ Curated by the Ministry of Magic
+Riya Dey
